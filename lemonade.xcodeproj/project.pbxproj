@@ -13,6 +13,8 @@
 		5DF09CDE1A9AF5DA0091BF1E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF09CDD1A9AF5DA0091BF1E /* Images.xcassets */; };
 		5DF09CE11A9AF5DA0091BF1E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DF09CDF1A9AF5DA0091BF1E /* LaunchScreen.xib */; };
 		5DF09CED1A9AF5DA0091BF1E /* lemonadeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF09CEC1A9AF5DA0091BF1E /* lemonadeTests.swift */; };
+		5DF09CF71A9B02B10091BF1E /* Supplies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF09CF61A9B02B10091BF1E /* Supplies.swift */; };
+		5DF09CF91A9B03910091BF1E /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF09CF81A9B03910091BF1E /* Price.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		5DF09CE61A9AF5DA0091BF1E /* lemonadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lemonadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF09CEB1A9AF5DA0091BF1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DF09CEC1A9AF5DA0091BF1E /* lemonadeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lemonadeTests.swift; sourceTree = "<group>"; };
+		5DF09CF61A9B02B10091BF1E /* Supplies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Supplies.swift; sourceTree = "<group>"; };
+		5DF09CF81A9B03910091BF1E /* Price.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				5DF09CD61A9AF5DA0091BF1E /* AppDelegate.swift */,
 				5DF09CD81A9AF5DA0091BF1E /* ViewController.swift */,
 				5DF09CDA1A9AF5DA0091BF1E /* Main.storyboard */,
+				5DF09CF61A9B02B10091BF1E /* Supplies.swift */,
+				5DF09CF81A9B03910091BF1E /* Price.swift */,
 				5DF09CDD1A9AF5DA0091BF1E /* Images.xcassets */,
 				5DF09CDF1A9AF5DA0091BF1E /* LaunchScreen.xib */,
 				5DF09CD41A9AF5DA0091BF1E /* Supporting Files */,
@@ -213,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DF09CD91A9AF5DA0091BF1E /* ViewController.swift in Sources */,
+				5DF09CF91A9B03910091BF1E /* Price.swift in Sources */,
+				5DF09CF71A9B02B10091BF1E /* Supplies.swift in Sources */,
 				5DF09CD71A9AF5DA0091BF1E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
